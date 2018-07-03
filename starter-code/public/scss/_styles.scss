@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Halant:300,500,700');
-@import url('https://fonts.googleapis.com/css?family=Assistant:300,800');
+@import url('https://fonts.googleapis.com/css?family=Halant:500');
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,600,800');
 
 body{
   background: #fcfafe;
@@ -8,12 +8,15 @@ body{
   padding: 35px;
   font-family: $ss;
   font-size: 18px;
+  font-weight: 300;
   color: $b;
 }
 
 a{ color: $g; }
 a:hover{ color: $pink; }
 .active{ color: $b; }
+
+strong{ font-weight: 800;}
 
 header{
 
@@ -80,3 +83,35 @@ footer{
   }
 }
 
+.info{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.bio{
+  padding: 60px;
+  background: #F2F3F4;
+  color: $b;
+
+  strong{
+    font-weight: 600;
+  }
+}
+
+.flexi{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  h2{
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: $pink;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+  }
+
+  ul{
+    margin-top: 8px;
+  }
+}
